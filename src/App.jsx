@@ -1,16 +1,19 @@
 import { useState } from 'react'
 
 import './App.css'
-import Accrodian from './components/accordian'
-import RandomColor from './components/random-color'
+import StarRating from './components/star-rating'
 
 function App() {
   
 
   return (
     <>
+    <StarRating noOfStars={5} />
+    
     {/* <Accrodian /> */}
-    <RandomColor />
+    {/* <RandomColor2 /> */}
+   
+
 
 
     </>
