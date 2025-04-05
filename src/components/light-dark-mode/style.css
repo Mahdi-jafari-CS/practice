@@ -1,0 +1,71 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #000;
+  --button-text: #fff;
+  --gradient-start: 50% 50%; /* Default center */
+  --gradient-color: #ffffff; /* Light theme color */
+}
+
+[data-theme="dark"] {
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --button-bg: #fff;
+  --button-text: #000;
+  --gradient-color: #000000; /* Dark theme color */
+}
+
+.light-dark-mode {
+  background: radial-gradient(circle at var(--gradient-start), var(--gradient-color), var(--background-color));
+  color: var(--text-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background 1s ease, color 0.5s ease;
+}
+
+.text {
+  font-family: 'Fleur De Leah', sans-serif;
+  font-size: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.container button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  .container button {
+    padding: 0 2.6rem;
+  }
+}
