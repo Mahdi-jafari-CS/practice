@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import data from "./data";
 import "./style.css";
 
-const Accrodian = () => {
+const Accrodian2 = () => {
   const [multiple, setMultiple] = useState([]);
   const [enableMultiSelection, setEnableMultiSelection] = useState(false);
   const [selected, setSelected] = useState(null);
@@ -59,4 +59,4 @@ const Accrodian = () => {
   );
 };
 
-export default Accrodian;
+export default Accrodian2;

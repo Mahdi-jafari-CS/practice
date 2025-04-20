@@ -1,0 +1,18 @@
+.github-profile-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.input-wrapper input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+
+}
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

@@ -18,6 +18,10 @@ const data = [
         id: "4",
         question: "What are props in React?",
         answer: "Props are inputs to a React component. They are data passed down from a parent component to a child component."
+    },{
+        id: "5",
+        question: "This is a custom part addded",
+        answer: "Props are inputs to a React component. They are data passed down from a parent component to a child component."
     }
 ];
 export default data;

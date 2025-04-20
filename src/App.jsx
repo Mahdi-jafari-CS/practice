@@ -10,6 +10,9 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/custom-modal-component/modal-test";
+import Accrodian from "./components/accordian";
+import GithubProfileFinder from "./components/github-profile-finder";
 
 function App() {
   return (
@@ -27,7 +30,11 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=30"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+
+      {/* <ModalTest /> */}
+      <GithubProfileFinder />
     </>
   );
 }
